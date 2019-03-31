@@ -52,6 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FX.cs" />
+    <Compile Include="Logic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource1.Designer.cs">
@@ -90,6 +92,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot-2016-05-12-12.15.52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star Trek sou.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\099.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\020.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\072.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\074.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\097.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

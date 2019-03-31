@@ -121,4 +121,25 @@
   <data name="Screenshot_2016_05_12_12_15_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\Screenshot-2016-05-12-12.15.52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Star_Trek_sou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Star Trek sou.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\002.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\020.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_072" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\072.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_074" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\074.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_097" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\097.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_099" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\099.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
