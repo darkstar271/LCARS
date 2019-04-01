@@ -40,7 +40,7 @@ namespace startrek
             InitializeComponent();
 
             this.FormBorderStyle = FormBorderStyle.None; Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
-            //  Fx.SoundT2();
+            Fx.SoundT7();
         }
 
         private void BtnEnter_Click(object sender, EventArgs e)
@@ -71,12 +71,84 @@ namespace startrek
                         Fx.SoundT1();
                         myLogic.ShieldsUp = "Stern";
                         break;
+                    case "btnPort":
+                        Fx.SoundT3();
+                        myLogic.ShieldsUp = "Port";
+                        break;
+                    case "btnStarboard":
+                        Fx.SoundT4();
+                        myLogic.ShieldsUp = "Starboard";
+                        break;
+                    case "btnTop":
+                        Fx.SoundT5();
+                        myLogic.ShieldsUp = "Top";
+                        break;
+                    case "btnBottom":
+                        Fx.SoundT6();
+                        myLogic.ShieldsUp = "Bottom";
+                        break;
+                    case "btnShields":
+                        Fx.SoundT7();
+                        myLogic.ShieldsUp = "Shields";
+                        break;
+                    case "":
+                        Fx.SoundT1();
+                        myLogic.ShieldsUp = "";
+                        break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 Text = myLogic.ShieldsUp;
             }
 
 
+        }
+
+        public void BntAlert_Click(object sender, EventArgs e)
+        {
+            BtnVisBol();
+            Fx.SoundT6();
+        }
+
+        private void BtnVisBol()
+        {
+            bntAlert.Visible = false;
         }
 
         //private static void SoundT1()

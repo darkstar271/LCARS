@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Media;
-
+using System.Windows.Forms;
 namespace startrek
 {
     static class Fx
     {
-
 
         public static void SoundT1()
         {
@@ -21,7 +20,7 @@ namespace startrek
 
         public static void SoundT2()
         {
-            SoundPlayer sn2Player = new SoundPlayer(Resource1.Star_Trek_sou);
+            SoundPlayer sn2Player = new SoundPlayer(Resource1._330);
             sn2Player.Play();
 
 
@@ -57,7 +56,7 @@ namespace startrek
         }
         public static void SoundT7()
         {
-            SoundPlayer sn2Player = new SoundPlayer(Resource1.Star_Trek_sou);
+            SoundPlayer sn2Player = new SoundPlayer(Resource1.Red_Alert);
             sn2Player.Play();
 
 
