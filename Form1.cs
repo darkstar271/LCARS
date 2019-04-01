@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Media;
+using startrek.Properties;
 
 
 namespace startrek
@@ -40,7 +41,9 @@ namespace startrek
             InitializeComponent();
 
             this.FormBorderStyle = FormBorderStyle.None; Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
-            Fx.SoundT7();
+            // this set's the media player to not show controls, it has to be set here as a defult.
+            axWindowsMediaPlayer1.uiMode = "none";
+            //- Fx.SoundT7();
         }
 
         private void BtnEnter_Click(object sender, EventArgs e)
@@ -142,13 +145,23 @@ namespace startrek
 
         public void BntAlert_Click(object sender, EventArgs e)
         {
-            BtnVisBol();
-            Fx.SoundT6();
+
+            axWindowsMediaPlayer1.URL = @"G:\Doubleback.mp4";
+
+            // axWindowsMediaPlayer1.URL = @"c:\mediafile.wmv";
+            // G:\Visual Studio 2019 Files\startrek\Resources
+            //BtnVisBol();
+            //Fx.SoundT6();
         }
 
         private void BtnVisBol()
         {
             bntAlert.Visible = false;
+        }
+
+        private void AxWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+
         }
 
         //private static void SoundT1()
