@@ -8,7 +8,7 @@ namespace startrek
 {
     class Logic
     {
-        public int num = 0;
+        public int num = 0; // sets a variable to be used in the random number generator
 
         public void Sdeflect()
         {
@@ -16,7 +16,7 @@ namespace startrek
             num = random.Next(1, 7);
         }
 
-        // int randomNumber = random.Next(1, 7);
+
 
 
 

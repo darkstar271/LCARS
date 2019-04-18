@@ -68,8 +68,9 @@ namespace startrek
                 {
                     case "btnBow":
                         //Fx.SoundT2();
-                        myLogic.Sdeflect();
-                        MessageBox.Show(myLogic.num.ToString());
+                        // this just tests the random gen in Logic.cs and prints the value to screen
+                        myLogic.Sdeflect(); // randon method
+                        MessageBox.Show(myLogic.num.ToString()); // print to screen the random value
                         myLogic.ShieldsUp = "Bow";
                         break;
                     case "btnStern":
