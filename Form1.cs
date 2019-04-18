@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 using System.Media;
 using startrek.Properties;
 
-
+// LCARS font added to winform, this is the font used on Startrek movies and tv shows, it's the computer interface (Library Computer Access/Retrieval System)
 namespace startrek
 {
 
@@ -67,7 +67,9 @@ namespace startrek
                 switch (shieldsDir)
                 {
                     case "btnBow":
-                        Fx.SoundT2();
+                        //Fx.SoundT2();
+                        myLogic.Sdeflect();
+                        MessageBox.Show(myLogic.num.ToString());
                         myLogic.ShieldsUp = "Bow";
                         break;
                     case "btnStern":

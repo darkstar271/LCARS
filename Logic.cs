@@ -8,11 +8,18 @@ namespace startrek
 {
     class Logic
     {
-        public static void Sdeflect()
+        public int num = 0;
+
+        public void Sdeflect()
         {
             Random random = new Random();
-            int randomNumber = random.Next(0, 7);
+            num = random.Next(1, 7);
         }
+
+        // int randomNumber = random.Next(1, 7);
+
+
+
 
         public static void TranWarp()
         {
