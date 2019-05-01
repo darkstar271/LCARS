@@ -7,7 +7,7 @@ using System.Media;
 using System.Windows.Forms;
 namespace startrek
 {
-    static class Fx
+    public class Fx
     {
 
         public static void SoundT1()
