@@ -56,6 +56,7 @@
             this.btnBow.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnBow.Size = new System.Drawing.Size(148, 51);
             this.btnBow.TabIndex = 0;
+            this.btnBow.Tag = "1";
             this.btnBow.Text = "Bow";
             this.btnBow.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnBow.UseVisualStyleBackColor = false;
@@ -72,6 +73,7 @@
             this.btnStern.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnStern.Size = new System.Drawing.Size(148, 51);
             this.btnStern.TabIndex = 1;
+            this.btnStern.Tag = "2";
             this.btnStern.Text = "Stern";
             this.btnStern.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnStern.UseVisualStyleBackColor = false;
@@ -88,6 +90,7 @@
             this.btnPort.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnPort.Size = new System.Drawing.Size(148, 51);
             this.btnPort.TabIndex = 2;
+            this.btnPort.Tag = "3";
             this.btnPort.Text = "Port";
             this.btnPort.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnPort.UseVisualStyleBackColor = false;
@@ -104,6 +107,7 @@
             this.btnStarboard.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnStarboard.Size = new System.Drawing.Size(148, 51);
             this.btnStarboard.TabIndex = 3;
+            this.btnStarboard.Tag = "4";
             this.btnStarboard.Text = "Starboard";
             this.btnStarboard.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnStarboard.UseVisualStyleBackColor = false;
@@ -120,6 +124,7 @@
             this.btnTop.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnTop.Size = new System.Drawing.Size(148, 51);
             this.btnTop.TabIndex = 4;
+            this.btnTop.Tag = "5";
             this.btnTop.Text = "Top";
             this.btnTop.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnTop.UseVisualStyleBackColor = false;
@@ -136,6 +141,7 @@
             this.btnBottom.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnBottom.Size = new System.Drawing.Size(148, 51);
             this.btnBottom.TabIndex = 5;
+            this.btnBottom.Tag = "6";
             this.btnBottom.Text = "Bottom";
             this.btnBottom.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnBottom.UseVisualStyleBackColor = false;
@@ -151,6 +157,7 @@
             this.btnShields.Name = "btnShields";
             this.btnShields.Size = new System.Drawing.Size(148, 51);
             this.btnShields.TabIndex = 6;
+            this.btnShields.Tag = "7";
             this.btnShields.Text = "ShieldsMax";
             this.btnShields.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnShields.UseVisualStyleBackColor = false;
