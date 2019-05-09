@@ -7,7 +7,7 @@ using System.Media;
 using System.Windows.Forms;
 namespace startrek
 {
-    public class Fx
+    public static class Fx
     {
 
         public static void SoundT1()
@@ -61,5 +61,14 @@ namespace startrek
 
 
         }
+
+        public static void SoundT8()
+        {
+            SoundPlayer sn2Player = new SoundPlayer(Resource1._02___Jerry_Goldsmith___Main_Title);
+            sn2Player.Play();
+
+
+        }
+
     }
 }

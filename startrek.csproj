@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LCARS_Toolbox">
+      <HintPath>..\..\2019 course\Books 2019\lcars_net_controls_demo(1)\bin\Release\LCARS_Toolbox.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -144,6 +147,15 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enterprise1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.- Jerry Goldsmith - Main Title.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -72,6 +72,15 @@ namespace startrek {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _02___Jerry_Goldsmith___Main_Title {
+            get {
+                return ResourceManager.GetStream("_02___Jerry_Goldsmith___Main_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream _020 {
             get {
                 return ResourceManager.GetStream("_020", resourceCulture);
@@ -129,6 +138,26 @@ namespace startrek {
         internal static System.Drawing.Bitmap dsBuffer_bmp {
             get {
                 object obj = ResourceManager.GetObject("dsBuffer_bmp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Enterprise1 {
+            get {
+                object obj = ResourceManager.GetObject("Enterprise1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fed {
+            get {
+                object obj = ResourceManager.GetObject("fed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

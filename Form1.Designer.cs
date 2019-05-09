@@ -38,6 +38,8 @@
             this.btnShields = new System.Windows.Forms.Button();
             this.bntAlert = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.btnEngage = new System.Windows.Forms.Button();
+            this.txtInfo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +57,7 @@
             this.btnBow.Name = "btnBow";
             this.btnBow.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.btnBow.Size = new System.Drawing.Size(148, 51);
-            this.btnBow.TabIndex = 0;
+            this.btnBow.TabIndex = 1;
             this.btnBow.Tag = "1";
             this.btnBow.Text = "Bow";
             this.btnBow.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -165,7 +167,7 @@
             // 
             // bntAlert
             // 
-            this.bntAlert.BackgroundImage = global::startrek.Resource1.redalert;
+            this.bntAlert.BackgroundImage = global::startrek.Resource1.fed;
             this.bntAlert.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bntAlert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntAlert.Location = new System.Drawing.Point(178, 53);
@@ -185,6 +187,32 @@
             this.axWindowsMediaPlayer1.TabIndex = 8;
             this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.AxWindowsMediaPlayer1_Enter);
             // 
+            // btnEngage
+            // 
+            this.btnEngage.BackgroundImage = global::startrek.Resource1.Enterprise1;
+            this.btnEngage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEngage.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnEngage.FlatAppearance.BorderSize = 0;
+            this.btnEngage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEngage.Location = new System.Drawing.Point(577, 125);
+            this.btnEngage.Name = "btnEngage";
+            this.btnEngage.Size = new System.Drawing.Size(238, 158);
+            this.btnEngage.TabIndex = 9;
+            this.btnEngage.UseVisualStyleBackColor = true;
+            this.btnEngage.Visible = false;
+            // 
+            // txtInfo
+            // 
+            this.txtInfo.BackColor = System.Drawing.Color.Black;
+            this.txtInfo.Font = new System.Drawing.Font("LCARS", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInfo.ForeColor = System.Drawing.Color.Gold;
+            this.txtInfo.Location = new System.Drawing.Point(-6, 2);
+            this.txtInfo.Multiline = true;
+            this.txtInfo.Name = "txtInfo";
+            this.txtInfo.Size = new System.Drawing.Size(990, 598);
+            this.txtInfo.TabIndex = 10;
+            this.txtInfo.Text = "The Klingons have ambushed us , we have limited power and 6 photons torpeadeos\r\n";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -192,6 +220,8 @@
             this.BackgroundImage = global::startrek.Resource1.dsBuffer_bmp;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(996, 612);
+            this.Controls.Add(this.txtInfo);
+            this.Controls.Add(this.btnEngage);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.bntAlert);
             this.Controls.Add(this.btnShields);
@@ -206,6 +236,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -220,6 +251,8 @@
         private System.Windows.Forms.Button btnShields;
         private System.Windows.Forms.Button bntAlert;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private System.Windows.Forms.Button btnEngage;
+        private System.Windows.Forms.TextBox txtInfo;
     }
 }
 

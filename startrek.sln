@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "startrek", "startrek.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest1", "..\UnitTest1\UnitTest1.csproj", "{133B2061-A6E3-415B-BF0C-0EECD77A3A48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestST", "UnitTestST\UnitTestST.csproj", "{0A8072C6-3B2F-4436-881D-5C48EE96D5EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{133B2061-A6E3-415B-BF0C-0EECD77A3A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133B2061-A6E3-415B-BF0C-0EECD77A3A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133B2061-A6E3-415B-BF0C-0EECD77A3A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8072C6-3B2F-4436-881D-5C48EE96D5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8072C6-3B2F-4436-881D-5C48EE96D5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8072C6-3B2F-4436-881D-5C48EE96D5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8072C6-3B2F-4436-881D-5C48EE96D5EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

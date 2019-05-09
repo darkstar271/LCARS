@@ -10,8 +10,14 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Media;
 using startrek.Properties;
-
+// link the unittestST to the project
 // LCARS font added to winform, this is the font used on Startrek movies and tv shows, it's the computer interface (Library Computer Access/Retrieval System)
+
+//https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.tag?view=netframework-4.8
+//Any type derived from the Object class can be assigned to this property. If the Tag property is set through the Windows Forms designer, only text can be assigned. 
+
+
+
 namespace startrek
 {
 
@@ -49,16 +55,30 @@ namespace startrek
         private void BtnEnter_Click(object sender, EventArgs e)
         {
             Button fakeLcars = (Button)sender;
-
-            //if (fakeLcars.Click)
-            //{
-            //ShieldsUpText = 
             ShieldsUp(fakeLcars.Name);
+
+
+
+            //if (myLogic.btnTag == myLogic.num)
+            //{
+
             //}
-
-
-            // Fx.SoundT1();
+            //// Fx.SoundT1();
         }
+
+
+
+
+
+
+        // https://blog.submain.com/c-switch-statement-beware/
+
+        //Button btnumber = (Button)sender;
+        //ShieldsUp(btnumber.Tag);
+
+        // int tag = (sender as button).Tag
+        // int tag = (Button)sender.Tag;
+        // public new object Tag { get; set; }
 
         public void ShieldsUp(string shieldsDir)
         {
@@ -67,34 +87,53 @@ namespace startrek
                 switch (shieldsDir)
                 {
                     case "btnBow":
+                        myLogic.butnum = 1;
+                        MessageBox.Show(myLogic.butnum.ToString());
+                        myLogic.WinLose();
+                        // myLogic.btnTag 
                         //Fx.SoundT2();
                         // this just tests the random gen in Logic.cs and prints the value to screen
-                        myLogic.Sdeflect(); // random method
-                        MessageBox.Show(myLogic.num.ToString()); // print to screen the random value
+
                         myLogic.ShieldsUp = "Bow";
                         break;
                     case "btnStern":
-                        Fx.SoundT1();
+                        myLogic.butnum = 2;
+                        MessageBox.Show(myLogic.butnum.ToString());
+                        myLogic.WinLose();
+                        //  Fx.SoundT1();
                         myLogic.ShieldsUp = "Stern";
                         break;
                     case "btnPort":
-                        Fx.SoundT3();
+                        myLogic.butnum = 3;
+                        MessageBox.Show(myLogic.butnum.ToString());
+                        myLogic.WinLose();
+                        // Fx.SoundT3();
                         myLogic.ShieldsUp = "Port";
                         break;
                     case "btnStarboard":
-                        Fx.SoundT4();
+                        myLogic.butnum = 4;
+                        MessageBox.Show(myLogic.butnum.ToString());
+                        myLogic.WinLose();
+                        // Fx.SoundT4();
                         myLogic.ShieldsUp = "Starboard";
                         break;
                     case "btnTop":
-                        Fx.SoundT5();
+                        myLogic.butnum = 5;
+                        MessageBox.Show(myLogic.butnum.ToString());
+                        myLogic.WinLose();
+                        // Fx.SoundT5();
                         myLogic.ShieldsUp = "Top";
                         break;
                     case "btnBottom":
-                        Fx.SoundT6();
+                        myLogic.butnum = 6;
+                        MessageBox.Show(myLogic.butnum.ToString());
+                        myLogic.WinLose();
+                        // Fx.SoundT6();
                         myLogic.ShieldsUp = "Bottom";
                         break;
                     case "btnShields":
-                        Fx.SoundT7();
+                        myLogic.Sdeflect();
+                        // Fx.SoundT7();
                         myLogic.ShieldsUp = "Shields";
                         break;
                     case "":
@@ -102,43 +141,7 @@ namespace startrek
                         myLogic.ShieldsUp = "";
                         break;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 Text = myLogic.ShieldsUp;
             }
@@ -149,7 +152,10 @@ namespace startrek
         public void BntAlert_Click(object sender, EventArgs e)
         {
 
-            axWindowsMediaPlayer1.URL = @"G:\Doubleback.mp4";
+            bntAlert.Visible = false;
+            Fx.SoundT8();
+            btnEngage.Visible = true;
+            // axWindowsMediaPlayer1.URL = @"G:\Doubleback.mp4";
 
             // axWindowsMediaPlayer1.URL = @"c:\mediafile.wmv";
             // G:\Visual Studio 2019 Files\startrek\Resources
@@ -160,6 +166,8 @@ namespace startrek
         private void BtnVisBol()
         {
             bntAlert.Visible = false;
+
+
         }
 
         private void AxWindowsMediaPlayer1_Enter(object sender, EventArgs e)
