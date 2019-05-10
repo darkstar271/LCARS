@@ -157,5 +157,8 @@
   <ItemGroup>
     <None Include="Resources\02.- Jerry Goldsmith - Main Title.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PreyEx2.avi" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

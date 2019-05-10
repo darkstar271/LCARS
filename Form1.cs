@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -132,6 +133,18 @@ namespace startrek
                         myLogic.ShieldsUp = "Bottom";
                         break;
                     case "btnShields":
+
+                        //axWindowsMediaPlayer1.URL = @"G:\Visual Studio 2019 Files\startrek\Resources\PreyEx2.avi";
+
+                        axWindowsMediaPlayer1.URL = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath),
+                            "PreyEx2.avi");
+
+                        // axWindowsMediaPlayer1.URL = "Resources\\PreyEx2.avi";
+                        // axWindowsMediaPlayer1.Ctlcontrols.play();
+
+                        //axWindowsMediaPlayer1.(Resource1.PreyEx2);
+                        //SoundPlayer sn2Player = new SoundPlayer(Resource1._330);
+                        //sn2Player.Play();
                         myLogic.Sdeflect();
                         // Fx.SoundT7();
                         myLogic.ShieldsUp = "Shields";
@@ -150,14 +163,18 @@ namespace startrek
         }
 
         public void BntAlert_Click(object sender, EventArgs e)
-        {
+        {               //---------//
+                        // Keep this code
+                        //bntAlert.Visible = false;
+                        //Fx.SoundT8();
+                        //btnEngage.Visible = true;
+                        // Keep this code
+                        //---------//
 
-            bntAlert.Visible = false;
-            Fx.SoundT8();
-            btnEngage.Visible = true;
+
             // axWindowsMediaPlayer1.URL = @"G:\Doubleback.mp4";
-
-            // axWindowsMediaPlayer1.URL = @"c:\mediafile.wmv";
+            axWindowsMediaPlayer1.URL = "Resources\\PreyEx2.avi";
+            axWindowsMediaPlayer1.URL = @"G:\Visual Studio 2019 Files\startrek\Resources\PreyEx2.avi";
             // G:\Visual Studio 2019 Files\startrek\Resources
             //BtnVisBol();
             //Fx.SoundT6();

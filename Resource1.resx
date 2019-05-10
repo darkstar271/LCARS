@@ -163,4 +163,7 @@
   <data name="_02___Jerry_Goldsmith___Main_Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\02.- Jerry Goldsmith - Main Title.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="PreyEx2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PreyEx2.avi;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

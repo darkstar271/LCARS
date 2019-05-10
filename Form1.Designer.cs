@@ -180,10 +180,10 @@
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(591, 167);
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(178, 53);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(365, 273);
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(806, 509);
             this.axWindowsMediaPlayer1.TabIndex = 8;
             this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.AxWindowsMediaPlayer1_Enter);
             // 
@@ -194,9 +194,9 @@
             this.btnEngage.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnEngage.FlatAppearance.BorderSize = 0;
             this.btnEngage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEngage.Location = new System.Drawing.Point(577, 125);
+            this.btnEngage.Location = new System.Drawing.Point(12, 53);
             this.btnEngage.Name = "btnEngage";
-            this.btnEngage.Size = new System.Drawing.Size(238, 158);
+            this.btnEngage.Size = new System.Drawing.Size(61, 52);
             this.btnEngage.TabIndex = 9;
             this.btnEngage.UseVisualStyleBackColor = true;
             this.btnEngage.Visible = false;
@@ -206,10 +206,10 @@
             this.txtInfo.BackColor = System.Drawing.Color.Black;
             this.txtInfo.Font = new System.Drawing.Font("LCARS", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInfo.ForeColor = System.Drawing.Color.Gold;
-            this.txtInfo.Location = new System.Drawing.Point(-6, 2);
+            this.txtInfo.Location = new System.Drawing.Point(12, 3);
             this.txtInfo.Multiline = true;
             this.txtInfo.Name = "txtInfo";
-            this.txtInfo.Size = new System.Drawing.Size(990, 598);
+            this.txtInfo.Size = new System.Drawing.Size(46, 43);
             this.txtInfo.TabIndex = 10;
             this.txtInfo.Text = "The Klingons have ambushed us , we have limited power and 6 photons torpeadeos\r\n";
             // 
